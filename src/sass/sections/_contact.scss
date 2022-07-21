@@ -36,4 +36,12 @@
       }
     }
   }
+  .contact-width {
+    width: 50% !important;
+    margin: auto;
+    margin-top: 20px;
+    @include widths {
+      width: 100% !important;
+    }
+  }
 }

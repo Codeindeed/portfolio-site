@@ -50,7 +50,12 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
     } //1800px +
   }
 }
-
+//contacts breakpoint
+@mixin widths {
+  @media (max-width: 56.25em) {
+    @content;
+  }
+}
 // Border White Mixin
 @mixin section-borders {
   border: 1.5rem solid #fff;
